@@ -1,0 +1,31 @@
+header{
+    background-image: url(img/photo1.jpg);
+}
+h1{
+    color:red;
+}
+p{
+    display:inline;
+}
+#p1{
+    background-color:aquamarine;
+    color:brown;
+}
+.p2{
+    text-decoration: underline;
+    color:blue;
+    position:sticky;
+    top:0;
+    right:0;}
+
+p:hover{
+    color:yellow;
+}
+p::first-letter{
+    font-size:2rem;
+}
+body{
+    border:solid black;
+    margin:auto;
+    max-width:400px;
+}
